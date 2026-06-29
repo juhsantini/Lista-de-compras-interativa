@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lista de Compras</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Lista de Compras</h1>
+
+        <div class="input-area">
+
+            <input type="text" id="produto" placeholder="Digite um produto...">
+
+            <button onclick="adicionarProduto()">
+
+                Adicionar
+
+            </button>
+
+        </div>
+
+        <p id="mensagem"></p>
+
+        <h3>Total de produtos:
+
+            <span id="contador">0</span>
+
+        </h3>
+
+        <ul id="listaProdutos"></ul>
+
+        <button class="limpar" onclick="removerComprados()">
+
+            Remover comprados
+
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
